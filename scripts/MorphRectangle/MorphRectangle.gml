@@ -10,10 +10,15 @@ function MorphRectangle(_left, _top, _right, _bottom, _outline)
 {
     static _struct = __MorphSystem();
     
-    _left   =   _left*_struct.xScale + _struct.xOffset;
-    _top    =    _top*_struct.yScale + _struct.yOffset;
-    _right  =  _right*_struct.xScale + _struct.xOffset;
-    _bottom = _bottom*_struct.yScale + _struct.yOffset;
+    var _xOffset = _struct.xOffset;
+    var _yOffset = _struct.yOffset;
+    var _xScale  = _struct.xScale;
+    var _yScale  = _struct.yScale;
+    
+    _left   =   _left*_xScale + _xOffset;
+    _top    =    _top*_yScale + _yOffset;
+    _right  =  _right*_xScale + _xOffset;
+    _bottom = _bottom*_yScale + _yOffset;
     
     draw_rectangle(_left, _top, _right, _bottom, _outline);
 }

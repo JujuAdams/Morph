@@ -16,19 +16,15 @@ function MorphSpritePos(_sprite, _image, _x1, _y1, _x2, _y2, _x3, _y3, _x4, _y4,
 {
     static _struct = __MorphSystem();
     
-    _x1 = _x1*_struct.xScale + _struct.xOffset;
-    _y1 = _y1*_struct.yScale + _struct.yOffset;
-    _x2 = _x2*_struct.xScale + _struct.xOffset;
-    _y2 = _y2*_struct.yScale + _struct.yOffset;
-    _x3 = _x3*_struct.xScale + _struct.xOffset;
-    _y3 = _y3*_struct.yScale + _struct.yOffset;
-    _x4 = _x4*_struct.xScale + _struct.xOffset;
-    _y4 = _y4*_struct.yScale + _struct.yOffset;
+    var _xOffset = _struct.xOffset;
+    var _yOffset = _struct.yOffset;
+    var _xScale  = _struct.xScale;
+    var _yScale  = _struct.yScale;
     
     draw_sprite_pos(_sprite, _image,
-                    _x1, _y1,
-                    _x2, _y2,
-                    _x3, _y3,
-                    _x4, _y4,
+                    _x1*_xScale + _xOffset, _y1*_yScale + _yOffset,
+                    _x2*_xScale + _xOffset, _y2*_yScale + _yOffset,
+                    _x3*_xScale + _xOffset, _y3*_yScale + _yOffset,
+                    _x4*_xScale + _xOffset, _y4*_yScale + _yOffset,
                     _alpha);
 }

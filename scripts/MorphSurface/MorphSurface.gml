@@ -1,13 +1,18 @@
 // Feather disable all
 
 /// @param surface
+/// @param x
+/// @param y
 
-function MorphSurface(_surface)
+function MorphSurface(_surface, _x, _y)
 {
     static _struct = __MorphSystem();
     
+    var _xScale = _struct.xScale;
+    var _yScale = _struct.yScale;
+    
     draw_surface_ext(_surface,
-                     _struct.xOffset, _struct.yOffset,
-                     _struct.xScale, _struct.yScale, 0,
+                     _xScale*_x + _struct.xOffset, _yScale*_y + _struct.yOffset,
+                     _xScale, _yScale, 0,
                      c_white, 1);
 }
