@@ -14,6 +14,7 @@
     {"id":{"name":"MorphSurfaceStretchedExt","path":"scripts/MorphSurfaceStretchedExt/MorphSurfaceStretchedExt.yy",},"order":5,},
     {"id":{"name":"MorphSurface","path":"scripts/MorphSurface/MorphSurface.yy",},"order":0,},
     {"id":{"name":"MorphSurfacePartExt","path":"scripts/MorphSurfacePartExt/MorphSurfacePartExt.yy",},"order":3,},
+    {"id":{"name":"MorphGetMatrix","path":"scripts/MorphGetMatrix/MorphGetMatrix.yy",},"order":12,},
     {"id":{"name":"sTestA","path":"sprites/sTestA/sTestA.yy",},"order":3,},
     {"id":{"name":"MorphScale","path":"scripts/MorphScale/MorphScale.yy",},"order":3,},
     {"id":{"name":"MorphSpritePos","path":"scripts/MorphSpritePos/MorphSpritePos.yy",},"order":2,},
