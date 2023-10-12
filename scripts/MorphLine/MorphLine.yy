@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphSetStruct",
+  "name": "MorphLine",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Direct Access",
-    "path": "folders/Morph/Direct Access.yy",
+    "name": "Primitive Drawing",
+    "path": "folders/Morph/Primitive Drawing.yy",
   },
 }

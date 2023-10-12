@@ -5,7 +5,7 @@
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Morph",
-    "path": "folders/Morph.yy",
+    "name": "Direct Access",
+    "path": "folders/Morph/Direct Access.yy",
   },
 }

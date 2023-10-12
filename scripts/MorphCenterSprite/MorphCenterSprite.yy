@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphSetStruct",
+  "name": "MorphCenterSprite",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Direct Access",
-    "path": "folders/Morph/Direct Access.yy",
+    "name": "Morph",
+    "path": "folders/Morph.yy",
   },
 }

@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphSetStruct",
+  "name": "MorphX",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
