@@ -1,6 +1,6 @@
 // Feather disable all
 
-function MorphStart()
+function MorphReset()
 {
     __MORPH_GLOBAL
     

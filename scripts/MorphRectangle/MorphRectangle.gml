@@ -10,10 +10,10 @@ function MorphRectangle(_left, _top, _right, _bottom, _outline)
 {
     __MORPH_GLOBAL
     
-    var _xOffset = _struct.xOffset;
-    var _yOffset = _struct.yOffset;
     var _xScale  = _struct.xScale;
     var _yScale  = _struct.yScale;
+    var _xOffset = _struct.xOffset + _struct.xOrigin*(1 - _xScale);
+    var _yOffset = _struct.yOffset + _struct.yOrigin*(1 - _yScale);
     
     _left   =   _left*_xScale + _xOffset;
     _top    =    _top*_yScale + _yOffset;

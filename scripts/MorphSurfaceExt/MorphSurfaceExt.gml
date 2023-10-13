@@ -15,9 +15,11 @@ function MorphSurfaceExt(_surface, _x, _y, _xScaleIn, _yScaleIn, _angle, _color,
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;
+    _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
+    _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
     
     draw_surface_ext(_surface,
-                     _xScale*_x + _struct.xOffset, _yScale*_y + _struct.yOffset,
+                     _x, _y,
                      _xScale*_xScaleIn, _yScale*_yScaleIn, _angle,
                      _color, _alpha);
 }

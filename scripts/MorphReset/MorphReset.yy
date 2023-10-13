@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphStart",
+  "name": "MorphReset",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {

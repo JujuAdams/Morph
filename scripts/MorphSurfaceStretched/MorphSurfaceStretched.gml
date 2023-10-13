@@ -14,9 +14,11 @@ function MorphSurfaceStretched(_surface, _x, _y, _left, _top, _width, _height)
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;
+    _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
+    _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
     
     draw_surface_stretched_ext(_surface,
-                               _xScale*_x + _struct.xOffset, _yScale*_y + _struct.yOffset,
+                               _x, _y,
                                _xScale*_width, _yScale*_height,
                                c_white, 1);
 }

@@ -34,7 +34,7 @@
     {"id":{"name":"MorphSurfaceExt","path":"scripts/MorphSurfaceExt/MorphSurfaceExt.yy",},"order":1,},
     {"id":{"name":"MorphRectangle","path":"scripts/MorphRectangle/MorphRectangle.yy",},"order":0,},
     {"id":{"name":"MorphSpritePart","path":"scripts/MorphSpritePart/MorphSpritePart.yy",},"order":5,},
-    {"id":{"name":"MorphStart","path":"scripts/MorphStart/MorphStart.yy",},"order":0,},
+    {"id":{"name":"MorphReset","path":"scripts/MorphReset/MorphReset.yy",},"order":0,},
     {"id":{"name":"MorphSurfaceStretched","path":"scripts/MorphSurfaceStretched/MorphSurfaceStretched.yy",},"order":4,},
     {"id":{"name":"MorphSpriteStretched","path":"scripts/MorphSpriteStretched/MorphSpriteStretched.yy",},"order":3,},
     {"id":{"name":"MorphSpriteStretchedExt","path":"scripts/MorphSpriteStretchedExt/MorphSpriteStretchedExt.yy",},"order":4,},

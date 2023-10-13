@@ -20,7 +20,7 @@ else if ((_t >= 3) && (_t <= 4))
 
 var _scale = lerp(1, 2, _q);
 
-MorphStart();
+MorphReset();
 MorphOrigin(50, 50);
 MorphScale(_scale);
 MorphSpriteStretched(sNineSlice, 0, 0, 0, 100, 100);
