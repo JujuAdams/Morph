@@ -4,7 +4,7 @@
 
 function MorphX(_x)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
-    return _struct.xScale*_x + _struct.xOffset;
+    return _struct.xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
 }

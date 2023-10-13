@@ -11,7 +11,7 @@
 
 function MorphSurfaceExt(_surface, _x, _y, _xScaleIn, _yScaleIn, _angle, _color, _alpha)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;

@@ -5,7 +5,7 @@
 
 function MorphMove(_xOffset, _yOffset)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     _struct.xOffset += _xOffset;
     _struct.yOffset += _yOffset;

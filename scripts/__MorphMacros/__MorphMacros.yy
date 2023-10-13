@@ -1,11 +1,11 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphScaleExt",
+  "name": "__MorphMacros",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
-    "name": "Morph",
-    "path": "folders/Morph.yy",
+    "name": "(System)",
+    "path": "folders/Morph/(System).yy",
   },
 }

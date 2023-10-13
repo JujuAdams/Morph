@@ -1,0 +1,1 @@
+#macro __MORPH_GLOBAL  static _struct = __MorphSystem(); 

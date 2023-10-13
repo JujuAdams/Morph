@@ -4,10 +4,12 @@
 
 function MorphSetStruct(_inStruct)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     with(_struct)
     {
+        xOrigin = _inStruct.xOrigin;
+        yOrigin = _inStruct.yOrigin;
         xOffset = _inStruct.xOffset;
         yOffset = _inStruct.yOffset;
         xScale  = _inStruct.xScale;

@@ -8,7 +8,7 @@
 
 function MorphRectangle(_left, _top, _right, _bottom, _outline)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xOffset = _struct.xOffset;
     var _yOffset = _struct.yOffset;

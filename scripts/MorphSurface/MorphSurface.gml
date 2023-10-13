@@ -6,7 +6,7 @@
 
 function MorphSurface(_surface, _x, _y)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;

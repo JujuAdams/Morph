@@ -4,7 +4,7 @@
 
 function MorphScale(_scale)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     _struct.xOffset *= _scale;
     _struct.yOffset *= _scale;

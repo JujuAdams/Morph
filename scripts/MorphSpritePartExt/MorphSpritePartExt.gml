@@ -13,7 +13,7 @@
 
 function MorphSpritePartExt(_sprite, _image, _left, _top, _width, _height, _x, _y, _color, _alpha)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;

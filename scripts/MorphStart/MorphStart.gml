@@ -2,7 +2,7 @@
 
 function MorphStart()
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     with(_struct)
     {

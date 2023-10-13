@@ -4,7 +4,7 @@
 
 function MorphCenterSurface(_surface)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     _struct.xOffset -= 0.5*surface_get_width(_surface);
     _struct.yOffset -= 0.5*surface_get_height(_surface);

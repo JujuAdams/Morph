@@ -9,7 +9,7 @@
 
 function MorphSpriteStretched(_sprite, _image, _x, _y, _width, _height)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;

@@ -14,7 +14,7 @@
 
 function MorphSpritePos(_sprite, _image, _x1, _y1, _x2, _y2, _x3, _y3, _x4, _y4, _alpha)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
     var _xOffset = _struct.xOffset;
     var _yOffset = _struct.yOffset;

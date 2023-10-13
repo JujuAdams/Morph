@@ -7,6 +7,8 @@ function __MorphSystem()
     var _struct = {};
     
     _struct = {
+        xOrigin: 0,
+        yOrigin: 0,
         xOffset: 0,
         yOffset: 0,
         xScale:  1,

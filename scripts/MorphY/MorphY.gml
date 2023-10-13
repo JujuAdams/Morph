@@ -4,7 +4,7 @@
 
 function MorphY(_y)
 {
-    static _struct = __MorphSystem();
+    __MORPH_GLOBAL
     
-    return _struct.yScale*_y + _struct.yOffset;
+    return _struct.yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
 }
