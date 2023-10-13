@@ -21,7 +21,9 @@ else if ((_t >= 3) && (_t <= 4))
 var _scale = lerp(1, 2, _q);
 
 MorphStart();
-MorphMove(-50, -50);
+MorphOrigin(50, 50);
 MorphScale(_scale);
-MorphMove(100, 100);
 MorphSpriteStretched(sNineSlice, 0, 0, 0, 100, 100);
+
+draw_set_colour(c_red);
+draw_circle(50, 50, 10, false);

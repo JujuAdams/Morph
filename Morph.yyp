@@ -15,7 +15,7 @@
     {"id":{"name":"MorphCenterSprite","path":"scripts/MorphCenterSprite/MorphCenterSprite.yy",},"order":3,},
     {"id":{"name":"MorphGetStruct","path":"scripts/MorphGetStruct/MorphGetStruct.yy",},"order":1,},
     {"id":{"name":"sBlip","path":"sprites/sBlip/sBlip.yy",},"order":8,},
-    {"id":{"name":"MorphSetOrigin","path":"scripts/MorphSetOrigin/MorphSetOrigin.yy",},"order":1,},
+    {"id":{"name":"MorphOrigin","path":"scripts/MorphOrigin/MorphOrigin.yy",},"order":1,},
     {"id":{"name":"AnimEvaluate","path":"scripts/AnimEvaluate/AnimEvaluate.yy",},"order":7,},
     {"id":{"name":"oDraw","path":"objects/oDraw/oDraw.yy",},"order":1,},
     {"id":{"name":"MorphMove","path":"scripts/MorphMove/MorphMove.yy",},"order":2,},

@@ -15,9 +15,11 @@ function MorphSpriteStretchedExt(_sprite, _image, _x, _y, _width, _height, _colo
     
     var _xScale = _struct.xScale;
     var _yScale = _struct.yScale;
+    _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
+    _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
     
     draw_sprite_stretched_ext(_sprite, _image,
-                              _xScale*_x + _struct.xOffset, _yScale*_y + _struct.yOffset,
+                              _x, _y,
                               _xScale*_width, _yScale*_height,
                               _color, _alpha);
 }

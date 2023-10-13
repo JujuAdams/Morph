@@ -3,7 +3,7 @@
 /// @param x
 /// @param y
 
-function MorphSetOrigin(_x, _y)
+function MorphOrigin(_x, _y)
 {
     __MORPH_GLOBAL
     
