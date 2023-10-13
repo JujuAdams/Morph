@@ -24,6 +24,11 @@ MorphReset();
 MorphOrigin(50, 50);
 MorphScale(_scale);
 MorphSpriteStretched(sNineSlice, 0, 0, 0, 100, 100);
+draw_set_colour(c_black);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+MorphTextTransformed(50, 50, "wazzup bitches", 0.5, 0.5, 30);
+draw_set_colour(c_white);
 
 draw_set_colour(c_red);
 draw_circle(50, 50, 10, false);
