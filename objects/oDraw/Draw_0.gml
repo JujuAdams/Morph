@@ -50,8 +50,8 @@ MorphStart(50, 50);
 //Apply a scaling transform.
 MorphScale(_scale);
 
-//And then move the graphics group out to x=200 y=200.
-MorphMove(200, 200);
+//And then move the graphics group out to the middle of the room
+MorphMove(room_width/2, room_height/2);
 
 //Draw a sprite using Morph
 MorphSpriteStretched(sNineSlice, 0, 0, 0, 100, 100);
