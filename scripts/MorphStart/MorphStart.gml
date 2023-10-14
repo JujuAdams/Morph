@@ -11,8 +11,6 @@ function MorphStart(_xOrigin, _yOrigin)
     
     with(_struct)
     {
-        xOrigin = 0;
-        yOrigin = 0;
         xOffset = -_xOrigin;
         yOffset = -_yOrigin;
         xScale  = 1;

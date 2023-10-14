@@ -18,8 +18,8 @@ function MorphSpritePos(_sprite, _image, _x1, _y1, _x2, _y2, _x3, _y3, _x4, _y4,
     
     var _xScale  = _struct.xScale;
     var _yScale  = _struct.yScale;
-    var _xOffset = _struct.xOffset + _struct.xOrigin*(1 - _xScale);
-    var _yOffset = _struct.yOffset + _struct.yOrigin*(1 - _yScale);
+    var _xOffset = _struct.xOffset;
+    var _yOffset = _struct.yOffset;
     
     draw_sprite_pos(_sprite, _image,
                     _x1*_xScale + _xOffset, _y1*_yScale + _yOffset,

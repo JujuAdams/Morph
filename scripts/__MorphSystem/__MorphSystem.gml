@@ -8,8 +8,6 @@ function __MorphSystem()
     show_debug_message("Welcome to Morph by Juju Adams! This is version " + string(__MORPH_VERSION) + ", " + string(__MORPH_DATE));
     
     var _struct = {
-        xOrigin: 0,
-        yOrigin: 0,
         xOffset: 0,
         yOffset: 0,
         xScale:  1,

@@ -11,8 +11,6 @@ function MorphSetStruct(_inStruct)
     
     with(_struct)
     {
-        xOrigin = _inStruct.xOrigin;
-        yOrigin = _inStruct.yOrigin;
         xOffset = _inStruct.xOffset;
         yOffset = _inStruct.yOffset;
         xScale  = _inStruct.xScale;

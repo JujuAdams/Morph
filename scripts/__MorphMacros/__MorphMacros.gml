@@ -5,5 +5,5 @@
     
 #macro __MORPH_SHARED_CALC var _xScale = _struct.xScale;\
                            var _yScale = _struct.yScale;\
-                           _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset;\
-                           _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset;
+                           _x = _xScale*_x + _struct.xOffset;\
+                           _y = _yScale*_y + _struct.yOffset;
