@@ -7,7 +7,7 @@
 /// @param color
 /// @param alpha
 
-function MorphSprite(_sprite, _image, _x, _y, _color, _alpha)
+function MorphSpriteColor(_sprite, _image, _x, _y, _color, _alpha)
 {
     __MORPH_GLOBAL
     __MORPH_SHARED_CALC
