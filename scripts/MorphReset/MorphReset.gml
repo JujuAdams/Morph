@@ -8,6 +8,8 @@ function MorphReset()
     
     with(_struct)
     {
+        xOrigin = 0;
+        yOrigin = 0;
         xOffset = 0;
         yOffset = 0;
         xScale  = 1;
