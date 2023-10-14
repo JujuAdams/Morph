@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "MorphOrigin",
+  "name": "MorphStart",
   "isDnD": false,
   "isCompatibility": false,
   "parent": {
