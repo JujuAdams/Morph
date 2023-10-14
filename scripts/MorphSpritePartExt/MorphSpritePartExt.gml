@@ -14,11 +14,7 @@
 function MorphSpritePartExt(_sprite, _image, _left, _top, _width, _height, _x, _y, _color, _alpha)
 {
     __MORPH_GLOBAL
-    
-    var _xScale = _struct.xScale;
-    var _yScale = _struct.yScale;
-    _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
-    _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
+    __MORPH_SHARED_CALC
     
     draw_sprite_part_ext(_sprite, _image,
                          _left, _top, _width, _height,

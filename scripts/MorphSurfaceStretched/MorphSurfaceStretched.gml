@@ -11,11 +11,7 @@
 function MorphSurfaceStretched(_surface, _x, _y, _left, _top, _width, _height)
 {
     __MORPH_GLOBAL
-    
-    var _xScale = _struct.xScale;
-    var _yScale = _struct.yScale;
-    _x = _xScale*(_x - _struct.xOrigin) + _struct.xOffset + _struct.xOrigin;
-    _y = _yScale*(_y - _struct.yOrigin) + _struct.yOffset + _struct.yOrigin;
+    __MORPH_SHARED_CALC
     
     draw_surface_stretched_ext(_surface,
                                _x, _y,
