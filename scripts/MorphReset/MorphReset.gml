@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Resets the Morph state. All Morph functions will draw identically to their GM counterparts.
+
 function MorphReset()
 {
     __MORPH_GLOBAL

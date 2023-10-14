@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Transforms the given x-coordinate using Morph.
+/// 
 /// @param x
 
 function MorphX(_x)

@@ -1,5 +1,8 @@
 // Feather disable all
 
+/// Sets the Morph transform from the contents of a struct. Useful for creating your own transform
+/// stack.
+/// 
 /// @param struct
 
 function MorphSetStruct(_inStruct)

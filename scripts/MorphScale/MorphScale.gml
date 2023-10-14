@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Adds a scaling operation to the Morph transform, equal in both the x- and y-axes.
+/// 
 /// @param scale
 
 function MorphScale(_scale)

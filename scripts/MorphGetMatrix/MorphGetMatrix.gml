@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Returns the matrix equivalent of the current Morph transform.
+
 function MorphGetMatrix()
 {
     __MORPH_GLOBAL

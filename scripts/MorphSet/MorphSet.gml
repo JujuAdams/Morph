@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Sets the Morph transform via its individual components.
+/// 
 /// @param xOrigin
 /// @param yOrigin
 /// @param xOffset

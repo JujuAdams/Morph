@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Returns a copy of the current Morph transform. Useful for creating your own transform stack.
+
 function MorphGetStruct()
 {
     __MORPH_GLOBAL

@@ -1,5 +1,7 @@
 // Feather disable all
 
+/// Adds an origin for the Morph transform.
+/// 
 /// @param x
 /// @param y
 
